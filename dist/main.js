@@ -1,10 +1,1 @@
-(function (factory) {
-	typeof define === 'function' && define.amd ? define(factory) :
-	factory();
-}(function () { 'use strict';
-
-	console.log('index');
-	var a = 1;
-	console.log(a);
-
-}));
+!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=o():"function"==typeof define&&define.amd?define(o):(e=e||self).main=o()}(this,(function(){"use strict";return console.log("suo",18),{name:"suo",age:18}}));

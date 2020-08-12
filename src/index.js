@@ -1,3 +1,10 @@
-console.log('index')
-let a = 1
-console.log(a)
+import name from './module'
+
+let age = 18
+
+console.log(name, age)
+
+export default {
+	name,
+	age
+}
